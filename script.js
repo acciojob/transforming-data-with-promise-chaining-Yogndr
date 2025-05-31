@@ -2,7 +2,7 @@
 const input=document.querySelector("#ip");
 const button=document.querySelector("#btn");
 const output=document.querySelector("#output");
-button.addEventListener("click",()={
+button.addEventListener("click",()=>{
 	const val=parseInt(input.value);
 	return new Promise((resolve)=>{
 
